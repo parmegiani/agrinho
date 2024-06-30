@@ -1,0 +1,3 @@
+#ff516b - rosa
+#000000 - Preto texto
+#ffffff - Branco topo

@@ -1,0 +1,83 @@
+@media (max-width: 480px) {
+    #topo {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #topo h1 {
+        text-align: center;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu ul {
+        margin: 10px 0;
+    }
+
+    #menu ul li {
+        margin: 5px 0;
+    }
+
+    #introducao p,
+    #conteudo p,
+    #oquefazer ul li {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    #introducao img,
+    #conteudo img {
+        width: 90%;
+        max-width: none;
+    }
+
+    #topo h1 {
+        font-size: 28px;
+    }
+
+    .topo-conteudo h3 {
+        font-size: 18px;
+    }
+
+    .tp-oque {
+        width:80%;
+    }
+
+    #oquefazer h2 {
+        width: 80%;
+        text-align: center;
+    }
+
+    #devs h1 {
+        text-align: center;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    #dev-img {
+        border-radius: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dev-img img {
+        object-fit: cover;
+        width: 80%;
+        align-items: center;
+    }
+
+    #dev-img p {
+        align-items: center;
+        width: 80%;
+    }
+
+    #devs p {
+        text-align: center;
+        width: 80%;
+        font-size: 15px;
+    }
+}
